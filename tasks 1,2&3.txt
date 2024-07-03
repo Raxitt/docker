@@ -1,0 +1,38 @@
+ vi docker.sh
+    2  sh docker.sh
+    3  docker images
+    4  docker ps
+    5  docker pull httpd
+    6  docker run -it -d httpd
+    7  docker images
+    8  docker ps
+    9   docker rm 2f336f906333
+   10  dcoker stop 2f336f906333
+   11  docker stop 2f336f906333
+   12  docker start 2f336f906333
+   13  docker rm 2f336f906333
+   14  docker rmi
+   15  docker images
+   16  docker stop 2f336f906333
+   17  docker rm 2f336f906333
+   18  docker images
+   19  docker rmi
+   20  docker ps -a
+   21  docker images
+   22  docker rmi 2f336f906333
+   23  docker rmi -f  httpd
+   24  docker images
+   25  history
+   26  docker images
+   27  docker pull nginx
+   28  docker run -it -d -p 8000:80 nginx
+   29  docker images
+   30  docker pull httpd
+   31  docker run -it -d webapp nginx
+   32  docker run -it -d --name webapp httpd
+   33  docker ps
+   34  docker commit b9975701cb40  lohith15/lohith
+   35  docker push lohith15/lohith
+   36  docker login
+   37  docker push lohith15/lohith
+   38  docker pull lohith15/lohith
